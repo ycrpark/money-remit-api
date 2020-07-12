@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: local
+  
+  jpa:
+    hibernate:
+      use-new-id-generator-mappings: false
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+    path: /error
